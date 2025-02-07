@@ -1,0 +1,7 @@
+## IDF Component Manager Manifest File
+dependencies:
+  idf: ">=5.0"
+  espressif/iperf-cmd: "^0.1.1"
+  espressif/console_cmd_ping: "^1.0.0"
+  esp32-camera:
+    override_path: "../components/esp32-camera"
